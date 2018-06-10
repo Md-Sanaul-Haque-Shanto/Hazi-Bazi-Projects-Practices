@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Students"
+    android:background="#fff1ffa3">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+
+        android:src="@drawable/rglhslogo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Form"
+        android:id="@+id/buttt111"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_input_add" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students Lists"
+        android:id="@+id/buttt2"
+        android:layout_below="@+id/buttt111"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_input_add" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students Panel"
+        android:id="@+id/buttt3"
+        android:layout_below="@+id/buttt2"
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/ic_input_add" />
+</RelativeLayout>

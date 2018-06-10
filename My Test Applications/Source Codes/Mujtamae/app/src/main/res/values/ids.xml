@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="serverOakTeam" type="id">id</item>
+    <item name="emailOakTeam" type="id">id</item>
+    <item name="appbajar" type="id">id</item>
+    <item name="team_fb" type="id">id</item>
+    <item name="play_store_id" type="id">id</item>
+    <item name="serverOakTea" type="id">id</item>
+    <item name="muj" type="id">id</item>
+</resources>

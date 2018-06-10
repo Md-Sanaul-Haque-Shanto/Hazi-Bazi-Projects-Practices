@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.HeadMaster"
+    android:background="#fff1ffa3"
+    android:padding="4dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/rglhslogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Admin"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffb713c0"
+        android:textIsSelectable="false"
+        android:textSize="26dp"
+        android:background="@android:drawable/alert_light_frame" />
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/teee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HeadMaster"
+                android:textColor="#ff1730ff"
+                android:textSize="26dp" />
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/teee"
+                android:id="@+id/iii"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/niluuuu" />
+
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iii"
+                android:id="@+id/teeee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nilu Shamsun Nahar "
+                android:textColor="#ff4c0fff"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/teeee"
+                android:id="@+id/iiii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.A(Hon&apos;s); M.A; M.Ed; B.C.S(General Edu);"
+                android:textColor="#ffff0b28"
+                android:textSize="23dp" />
+
+
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iiii"
+                android:id="@+id/ii1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#ffff2430"
+                android:background="@android:drawable/sym_action_call"
+                android:text="Call" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ii1"
+                android:id="@+id/iiiii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assistant HeadMaster"
+                android:textSize="26dp"
+                android:textColor="#ff131cff" />
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/iiiiii"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/habi"
+                android:layout_below="@+id/iiiii" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iiiiii"
+                android:id="@+id/iiiiiii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md. Habibur Rahman"
+                android:textColor="#ff290dff"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iiiiiii"
+                android:id="@+id/iiiiiiii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.S.C; B.Ed; M.Ed;"
+                android:textColor="#ffff095a"
+                android:textSize="23dp" />
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/iiiiiiii"
+                android:id="@+id/ii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#ff131cff"
+                android:background="@android:drawable/sym_action_call"
+                android:text="Call" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

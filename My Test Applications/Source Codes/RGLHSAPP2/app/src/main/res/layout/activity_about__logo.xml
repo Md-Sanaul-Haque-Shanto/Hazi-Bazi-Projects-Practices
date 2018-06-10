@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.About_Logo"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+
+        android:src="@drawable/rglhslogo" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/scrollView4"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tex8"
+                android:text="About Logo"
+                android:textSize="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff302dff" />
+
+            <ImageView
+                android:layout_below="@+id/tex8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/logo1"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="The school is a symbolic monogram design . It was designed by renowned artist Hashem Khan .The original design of the four angular limb structure. The left angle of education , culture and the angle Danakona Patriotism or Nation , Education and Culture , Which holds up to the light to go ahead , The progress and commitment to bold . Madhyamanite square room that is open to the book , it is a symbol of knowledge .Learning through human society , Education, Culture and Patriotism contains forward toward progress . The flower buds on the right side of the design of the book is a symbol of adolescent children . They are beautiful and full of flower buds are being illuminated by the teachings will appear . The society will be established as an ideal complement .Writing half - conglobate Govt, Laboratory High School, Rajshahi layout has been designed with consideration of all design company founded on a solid bhitera . Bud incarnadine colors and symbols of the national flag colors of square , a symbol of youth . Book knowledge is light yellow color , Brightness color . Book generosity sky blue Exterior and Meridians ."
+                android:id="@+id/textView28"
+                android:layout_below="@+id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffb01fff"
+                android:padding="3dp"
+                android:textSize="24dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

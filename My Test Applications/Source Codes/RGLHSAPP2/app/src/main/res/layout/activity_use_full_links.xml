@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.UseFullLinks"
+    android:background="#fff1ffa3">
+
+    <TextView
+        android:id="@+id/tex1"
+        android:text="UseFul Links"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame"
+        android:textColor="#ff27ff1a" />
+
+<ScrollView
+    android:layout_below="@+id/tex1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView5">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/butt1"
+            android:text="All Results Bd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add" />
+
+
+        <Button
+            android:id="@+id/butt2"
+            android:layout_below="@+id/butt1"
+            android:text="All Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add" />
+
+        <Button
+        android:id="@+id/butt3"
+        android:layout_below="@+id/butt2"
+        android:text="Rajshahi Board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_input_add" />
+
+
+        <Button
+            android:id="@+id/butt4"
+            android:layout_below="@+id/butt3"
+            android:text="Govt.Seroil Rajshahi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_input_add" />
+
+        <Button
+            android:layout_below="@+id/butt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Govt, Pn Girls "
+            android:id="@+id/butt5"
+            android:background="@android:drawable/ic_input_add" />
+
+        <Button
+            android:layout_below="@+id/butt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajsahi University"
+            android:id="@+id/butt6"
+            android:background="@android:drawable/ic_input_add" />
+
+
+        <Button
+            android:layout_below="@+id/butt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education Board"
+            android:id="@+id/butt7"
+            android:background="@android:drawable/ic_input_add" />
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

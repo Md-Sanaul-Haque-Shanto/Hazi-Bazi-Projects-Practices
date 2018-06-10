@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout facebook:orientation="1" facebook:layout_width="-1" facebook:layout_height="-1">
+    <TextView facebook:textColor="#ff0000" facebook:gravity="11" facebook:id="@id/messageTextView" facebook:layout_width="-1" facebook:layout_height="-2" />
+    <com.facebook.login.widget.ProfilePictureView facebook:gravity="1" facebook:layout_gravity="1" facebook:id="@id/profilePicture" facebook:layout_width="-2" facebook:layout_height="-2" facebook:layout_marginBottom="10dp" facebook:layout_above="@id/greeting" facebook:layout_centerHorizontal="true" facebook:com_facebook_preset_size="-3" />
+    <TextView facebook:textSize="18sp" facebook:textColor="#333" facebook:layout_gravity="11" facebook:id="@id/greeting" facebook:layout_width="-2" facebook:layout_height="-2" facebook:layout_marginLeft="10dp" facebook:layout_above="@id/login_button" facebook:layout_centerHorizontal="true" facebook:layout_centerVertical="true" />
+    <com.facebook.login.widget.LoginButton facebook:id="@id/login_button" facebook:layout_width="-2" facebook:layout_height="-2" facebook:layout_centerInParent="true" />
+</RelativeLayout>

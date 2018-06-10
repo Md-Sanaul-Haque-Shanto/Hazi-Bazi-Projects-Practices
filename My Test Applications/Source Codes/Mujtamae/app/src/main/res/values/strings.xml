@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mujtamae</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wlcome_">Wlcome_Activity</string>
+    <string name="title_activity_about_dev">About_dev</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7470380930225437/1843009303</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7470380930225437/3319742507</string>
+   </resources>

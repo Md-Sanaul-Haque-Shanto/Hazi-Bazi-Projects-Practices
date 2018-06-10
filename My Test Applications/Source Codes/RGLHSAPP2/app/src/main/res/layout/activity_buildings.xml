@@ -1,0 +1,487 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Buildings"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+
+        android:src="@drawable/rglhslogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:layout_below="@+id/imageView9"
+
+        android:layout_centerHorizontal="true"
+        android:text="School Buildings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame"
+        android:textSize="25dp"
+
+        android:id="@+id/textView39"
+        android:textColor="#ff17d457" />
+
+    <ScrollView
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView9"
+        android:layout_below="@+id/textView39"
+         >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_centerHorizontal="true"
+            android:text="Lists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_light_frame"
+            android:textSize="20dp"
+            android:textColor="#ff4d14ff"
+            android:id="@+id/textView37" />
+
+
+        <TableLayout
+            android:id="@+id/tab1"
+            android:layout_below="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2012ff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Catagory"
+                android:textColor="#ffff1d19"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Counting"
+                android:textColor="#ffff2229"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Main Buildings"
+                android:textColor="#f2bf071a"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="01"
+                android:textColor="#f2388f09"
+                android:textSize="17sp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Academic Buildings"
+                android:textColor="#f2bf071a"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="02"
+                android:textColor="#f2388f09"
+                android:textSize="17sp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="HeadMaster Living Buildings"
+                android:textColor="#f2bf071a"
+                android:textSize="17sp" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="01"
+                android:textColor="#ff0e9123"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Pump House"
+                android:textColor="#f2bf071a"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="01(Create Own PWD System)"
+                android:textColor="#f2388f09"
+                android:textSize="17sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Guard Quater"
+                android:textColor="#f2bf071a"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Null!"
+                android:textColor="#f2388f09"
+                android:textSize="17sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="School Hostel"
+                android:textColor="#f2bf071a"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:textColor="#f2388f09"
+                android:textSize="17sp"
+                android:text="01" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Storage For Vehicales"
+                android:textColor="#f2bf071a"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="01"
+                android:textColor="#f2388f09"
+                android:textSize="17sp" />
+
+
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/valuecellborder"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="6dp"
+                    android:text="Buildings"
+                    android:textColor="#f2bf071a"
+                    android:textSize="15sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/valuecellborder"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="6dp"
+                    android:text="09"
+                    android:textColor="#f2388f09"
+                    android:textSize="17sp" />
+
+
+            </TableRow>
+</TableLayout>
+
+
+
+
+
+            <TextView
+                android:layout_below="@+id/tab1"
+
+                android:layout_centerHorizontal="true"
+                android:text="Main Buildings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="25dp"
+
+                android:id="@+id/textView94"
+                android:textColor="#ff360eff" />
+            <ImageView
+                android:layout_below="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView91"
+
+                android:src="@drawable/rglhs"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="top"/>
+
+
+            <TextView
+                android:layout_below="@+id/imageView91"
+
+                android:layout_centerHorizontal="true"
+                android:text="English Alphabetic H Shaped Double Floor Triple Buildings.Academic Cam Building.43 Rooms In Building.HeadMaster,Assistance HeadMaster,Office Room,Teachers auditorium,Prayer Room,Sports Room,Scout Den,Computer,Shekh Rasel Computer Lab,Physics Lab,Chemistry Lab,Biology Lab,HigherMath Room,Agriculture Room etc. Are School Laboratory.And Also Class 3 To 10 Class Wise Section Two To 18 Rooms For Class Or Students Rooms.Others Room Used For Needed Times..School Has A auditorium (Minimum 500 People Can Stay At A Time in A Event).School Has Also Common Room For Playing Carram,Chess,Table Tenis,etc. Indoor Games In Tiffine Time. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+
+                android:id="@+id/textView2"
+                android:textColor="#ffcb0cff"
+                android:padding="4dp" />
+
+
+            <TextView
+                android:layout_below="@+id/textView2"
+
+                android:layout_centerHorizontal="true"
+                android:text="Academic Building"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:id="@+id/textView4"
+                android:textColor="#ff360eff" />
+            <TextView
+                android:layout_below="@+id/textView4"
+
+                android:layout_centerHorizontal="true"
+                android:text="Academic Building 2 Three Rooms Included .I Shaped Building"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+
+                android:id="@+id/textView22"
+                android:textColor="#ffcb0cff" />
+
+
+
+            <TextView
+                android:layout_below="@+id/textView22"
+
+                android:layout_centerHorizontal="true"
+                android:text="School Hostel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:id="@+id/textView5"
+                android:textColor="#ff360eff" />
+            <TextView
+                android:layout_below="@+id/textView5"
+
+                android:layout_centerHorizontal="true"
+                android:text="Triple Buildings,Daining,Visiter Room,Prayer Room,Rooms 23,.75 Students Can Living Here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+
+                android:id="@+id/textView6"
+                android:textColor="#ffcb0cff" />
+
+            <TextView
+                android:layout_below="@+id/textView6"
+
+                android:layout_centerHorizontal="true"
+                android:text="Vehicales Storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25dp"
+                android:background="@android:drawable/alert_light_frame"
+                android:id="@+id/textView7"
+                android:textColor="#ff360eff" />
+            <TextView
+                android:layout_below="@+id/textView7"
+
+                android:layout_centerHorizontal="true"
+                android:text="400 Cycle or Motor Cycle can Listed."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+
+                android:id="@+id/textView8"
+                android:textColor="#ffcb0cff" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

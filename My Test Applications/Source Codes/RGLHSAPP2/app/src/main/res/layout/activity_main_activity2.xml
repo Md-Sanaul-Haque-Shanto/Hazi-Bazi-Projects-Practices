@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.example.shanato.rglhsapp.MainActivity2"
+    android:background="#fff1ffa3">
+
+
+    <ImageView
+        android:src="@drawable/rglhslogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imag1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top" />
+
+    <ImageView
+        android:src="@drawable/rglhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imag2"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imag1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:layout_below="@+id/imag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archive"
+                android:id="@+id/buttt111"
+                android:background="@drawable/abcd123"
+
+                android:textColor="#ffb560ff" />
+
+            <Button
+
+                android:layout_below="@+id/buttt111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:id="@+id/buttt222"
+                android:background="@drawable/abcd123"
+                android:textColor="#ff3e21ff" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About App"
+                android:id="@+id/buttt3"
+                android:layout_below="@+id/buttt222"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/abcd123"
+                android:textColor="#ffff1b28" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Developer"
+                android:id="@+id/buttt4"
+                android:layout_below="@+id/buttt3"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/abcd123"
+                android:textColor="#ffff1b28" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

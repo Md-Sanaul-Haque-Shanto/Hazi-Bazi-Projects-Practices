@@ -1,0 +1,543 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Contact_With_Teachers"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+
+
+
+    <TextView
+        android:text="Teachers Name With Calls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="24dp"
+        android:textColor="#ff0ed03e"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/toast_frame" />
+    <ScrollView
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_centerHorizontal="true">
+
+
+
+            <TextView
+             android:id="@+id/tex2"
+                android:textSize="25dp"
+                 android:text="|1| Md Habibur Rahman"
+                  android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+         <Button
+
+             android:layout_below="@+id/tex2"
+             android:id="@+id/butst111"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+
+         <TextView
+             android:id="@+id/tex3"
+             android:textSize="25dp"
+             android:text="|2|Mohammad Saiful Malek"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt111"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex3"
+             android:id="@+id/buttt2"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex4"
+             android:textSize="25dp"
+             android:text="|3| Shekh Monirul Islam"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt2"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex4"
+             android:id="@+id/buttt3"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex5"
+             android:textSize="25dp"
+             android:text="|4| Anju Man Ara Begum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt3"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex5"
+             android:id="@+id/buttt4"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex6"
+             android:textSize="25dp"
+             android:text="|5| Md Mahbubul Haque"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt4"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex6"
+             android:id="@+id/buttt5"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex7"
+             android:textSize="25dp"
+             android:text="|6| P.K. M Forhad"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt5"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex7"
+             android:id="@+id/buttt6"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex8"
+             android:textSize="25dp"
+             android:text="|7| Md Mosarraf Hossain"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt6"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex8"
+             android:id="@+id/buttt7"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex9"
+             android:textSize="25dp"
+             android:text="|8| Muntasir Ahmed"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt7"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex9"
+             android:id="@+id/buttt8"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex10"
+             android:textSize="25dp"
+             android:text="|9| Mohammad SebGatullah"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt8"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex10"
+             android:id="@+id/buttt9"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex11"
+             android:textSize="25dp"
+             android:text="|10| Anjum Ara Chowdhury"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt9"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex11"
+             android:id="@+id/buttt10"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex12"
+             android:textSize="25dp"
+             android:text="|11| Ferdous Ara Begum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt10"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex12"
+             android:id="@+id/buttt111"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex13"
+             android:textSize="25dp"
+             android:text="|12| A H M Abdur Razzaque"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt111"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex13"
+             android:id="@+id/buttt12"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex14"
+             android:textSize="25dp"
+             android:text="|13| Md Abdul Baree"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt12"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex14"
+             android:id="@+id/buttt13"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex15"
+             android:textSize="25dp"
+             android:text="|14| Most. Nasima Khatun"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt13"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex15"
+             android:id="@+id/buttt141"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex16"
+             android:textSize="25dp"
+             android:text="|15| Md Shariful Islam"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt141"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex16"
+             android:id="@+id/buttt15"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex17"
+             android:textSize="25dp"
+             android:text="|16| Md Wahidul Haque"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt15"
+             android:layout_gravity="center_horizontal"
+             android:layout_centerHorizontal="true" />
+
+         <Button
+             android:layout_below="@+id/tex17"
+             android:id="@+id/buttt16"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex18"
+             android:textSize="25dp"
+             android:text="|17| Md Mohsin Ali"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt16"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex18"
+             android:id="@+id/buttt17"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex19"
+             android:textSize="25dp"
+             android:text="|18| Ajmira Khatun"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt17"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex19"
+             android:id="@+id/buttt18"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex20"
+             android:textSize="25dp"
+             android:text="|19| Suvra Roy"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt18"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex20"
+             android:id="@+id/buttt19"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+
+         <TextView
+             android:id="@+id/tex22"
+             android:textSize="25dp"
+             android:text="|21| Md Humayun Kabir"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt19"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/tex22"
+             android:id="@+id/buttt21"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex23"
+             android:textSize="25dp"
+             android:text="|22| Md Tariqul Islam"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt21"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex23"
+             android:id="@+id/buttt22"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+         <TextView
+             android:id="@+id/tex24"
+             android:textSize="25dp"
+             android:text="|23| Nilufar Ali"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/buttt22"
+             android:layout_centerHorizontal="true"
+             android:layout_gravity="center_horizontal" />
+
+         <Button
+             android:layout_below="@+id/tex24"
+             android:id="@+id/buttt23"
+             android:textSize="24dp"
+             android:text="Call"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@android:drawable/sym_action_call"
+             android:layout_gravity="center_horizontal" />
+                <TextView
+            android:id="@+id/tex26"
+            android:textSize="25dp"
+            android:text="|24|  Mohammod Azim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttt23"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_below="@+id/tex26"
+            android:id="@+id/buttt24"
+            android:textSize="24dp"
+            android:text="Call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/sym_action_call"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tex27"
+            android:textSize="25dp"
+            android:text="|25|  Atwar Hossain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttt23"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_below="@+id/tex26"
+            android:id="@+id/buttt25"
+            android:textSize="24dp"
+            android:text="Call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/sym_action_call"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tex28"
+            android:textSize="24dp"
+            android:text="|26|  Rohima Akhtar Zahan(Duli)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttt23"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_below="@+id/tex26"
+            android:id="@+id/buttt26"
+            android:textSize="24dp"
+            android:text="Call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/sym_action_call"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tex29"
+            android:textSize="24dp"
+            android:text="|27|  Md. Nekbar Ali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttt26"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_below="@+id/tex29"
+            android:id="@+id/buttt27"
+            android:textSize="24dp"
+            android:text="Call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/sym_action_call"
+            android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

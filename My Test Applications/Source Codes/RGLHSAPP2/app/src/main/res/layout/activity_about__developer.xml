@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.About_Developer"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+
+    <ImageView
+        android:src="@drawable/iamshanto"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name:Md Sanaul Haque Shanto"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffef2d2d" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Read In:Govt,Laboratory High School,Rajshahi...Batch 2010"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff2e43ef" />
+
+
+
+    <TextView
+        android:text="Email:mdshs.shanto@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:id="@+id/editText2"
+        android:textColor="#ffff1c3b"
+        android:layout_below="@+id/but6"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but3"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        style="@android:style/TextAppearance.Holo.WindowTitle"
+        android:clickable="true"
+        android:textColor="#ff8c31a3"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+
+        android:enabled="true"
+        android:visibility="visible"
+        android:text="Call"
+        android:background="@android:drawable/sym_action_call" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/but4"
+        android:background="@drawable/share_fb"
+        android:clickable="true"
+        android:longClickable="false"
+        android:textColor="#173b84b9"
+        android:layout_alignTop="@+id/but3"
+        android:layout_toRightOf="@+id/textView4"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:enabled="true"
+        android:visibility="visible"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:id="@+id/but5"
+        android:layout_below="@+id/but3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffd8ca23"
+        android:longClickable="false"
+        android:enabled="true"
+        android:background="@drawable/share_twitter"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WebSite"
+        android:id="@+id/but6"
+        android:layout_below="@+id/but5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffd80c10"
+        android:longClickable="false"
+        android:enabled="true"
+        android:background="@drawable/rss"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true" />
+
+</RelativeLayout>

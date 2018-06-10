@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fffdfdfe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#fffdfdfe">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#fffdfdfe">
+        <TextView android:textSize="18sp" android:textColor="@color/colorPrimary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Developed by" />
+        <ImageView  android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/muj" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/mujtamaeylogo" android:onClick="FacebookActionMegaminds"
+            android:background="#01ffffff" />
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fffdfdfe"
+            android:layout_gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fffdfdfe"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView android:id="@id/serverOakTea" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/phone_icon"
+                android:onClick="callToDeveloper" />
+            <ImageView android:id="@id/serverOakTeam" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_web"
+                android:onClick="WebActionMegaminds" />
+            <ImageView android:id="@id/emailOakTeam" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_email"
+                android:onClick="emailAction" />
+            <ImageView android:id="@id/appbajar" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_appbajar" android:layout_weight="1.0" android:onClick="appBajarShowAction" />
+            <ImageView  android:id="@id/play_store_id" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/google_play_icon"
+                android:onClick="playStoreShowAction" />
+            <ImageView android:id="@id/team_fb" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ic_facebook" android:layout_weight="1.0" android:onClick="FacebookActionMegaminds" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+

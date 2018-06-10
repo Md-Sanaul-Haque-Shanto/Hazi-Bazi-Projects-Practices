@@ -1,0 +1,557 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff1ffa3"
+    tools:context="com.example.shanato.rglhsapp.School_Rules">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="সদয় অবগতি "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:textColor="#ff380aff"
+        android:textSize="24dp"
+        android:id="@+id/textView58" />
+
+    <ScrollView
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView13"
+        android:layout_below="@+id/textView58"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:text="১। সময় সূচি "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:id="@+id/textView60" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView61"
+                android:layout_below="@+id/textView60"
+                android:text="(ক) বৃহস্পতিবার বাদে সপ্তাহে অন্যান্য দিন সকাল ১০ হতে বিকাল ৪ পর্যন্ত (মাঝে ৫০ মিনিটের বিরতিসহ) শ্রেনি কার্যক্রম চলে। বৃহস্পতিবার সকাল ১০ টা হতে দুপুর ১,২০ মিনিতে পর্যন্ত ।" />
+
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView62"
+                android:layout_below="@+id/textView61"
+                android:text="(খ) উদ্বোধনী অনুষ্ঠান ও জাতীয় সংগীত (প্রত্তাহিক সমাবেশ) সকাল ১০ টাই ।">
+
+
+            </TextView>
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView63"
+                android:layout_below="@+id/textView62"
+                android:text="(গ)প্রতাহিক সমাবেশে অংশগ্রহন বাধ্যতামুলক। এজন্য সংশ্লিষ্ঠ সকলকে অন্তত ১৫ মিনিট পূর্বে বিদ্যালয়ে উপস্থিত হতে হবে।" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:text="২। ভর্তির নীতিমালা "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:layout_below="@+id/textView63"
+                android:id="@+id/textView64" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView65"
+                android:layout_below="@+id/textView64"
+                android:text="(ক)এন্ট্রি ক্লাসে অর্থাৎ তৃতীয় শ্রেনিতে এবং আসন শূন্য থাকা সাপেক্ষে সাধারনভাবে ষষ্ঠ ও নবম শ্রেনিতে সীমিত আসনে শিক্ষার্থী ভর্তি করা হবে।" />
+
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView66"
+                android:layout_below="@+id/textView65"
+                android:text="(খ)তৃতীয় শ্রেণীতে ভর্তির জন্য  শিক্ষার্থীর বয়স শিক্ষা বর্ষে ১ জানুয়ারী ২০১৬ হতে ৮+ বছর হতে হবে। শিক্ষাথী্র বয়স নির্ধারণের জন্য ভর্তির আবেদন ফরমের সাথে জন্ম নিবন্ধনের সত্যায়িত কপি জমা দিতে হবে।" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView67"
+                android:layout_below="@+id/textView66"
+                android:text="(গ)শিক্ষাবর্ষ ১ জানুয়ারী থেকে ৩১ ডিসেম্বার পর্যন্ত।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView68"
+                android:layout_below="@+id/textView67"
+                android:text="(ঘ)লিখিত পরীক্ষার মাধ্যমে বিদ্যালয় পছন্দ ও মেধাক্রম  অনুসারে ভর্তির জন্য শিক্ষাথী বাছাই করা হয়।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView69"
+                android:layout_below="@+id/textView68"
+                android:text="(ঙ)সাধারণত শিক্ষাবর্ষের নভেম্বর মাসের শেষ সপ্তাহে বা ডিসেম্বর মাসের প্রথম  সপ্তাহ থেকে ভর্তির আবেদন ফরম বিতরন ও জমা নেওয়া হয় । প্রতিটি আবেদন ফরমের মূল্য ১৫০ টাকা মাত্র। জাতীয় /স্হানীয় পত্রপত্রিকায় ভর্তি বিজ্ঞপ্তি প্রচার করা হবে। ওয়েব সাইট থেকেও ভর্তি বিজ্ঞপ্তি প্রচারের ব্যাবস্থা করা হয়।" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView70"
+                android:layout_below="@+id/textView69"
+                android:text="(চ)ষষ্ঠ শ্রেনির ভর্তি  পরীক্ষার সময় ২ ঘণ্টা ;পূর্ণমান ১০০ঃবাংলায় ৩০,ইংরেজিতে ৩০ ও গনিতে ৪০ নম্বর ।৩য় শ্রেনিতে ভর্তি পরীক্ষার সময় ১ ঘণ্টা; পূর্ণমান ৫০ঃ বাংলায় ১৫ , ইংরেজিতে ১৫,গনিত ২০, ভরতিচ্ছু শ্রেনির পূর্ববর্তী শ্রেনির পাঠ্যপুস্তক থেকে প্রশ্নপত্র প্রনয়ন করা হয় । " />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView71"
+                android:layout_below="@+id/textView70"
+                android:text="(ছ)ভর্তির জন্য ন্যুণতম যোগ্যতা  থাকা সাপেক্ষে শিক্ষা মন্ত্রানালয়ে কর্মরত কর্মকর্তা কর্মচারীদের সন্তান এবং সরকারি মাধ্যমিক বিদ্যালয়ের শিক্ষক /শিক্ষিকা কর্মচারীদের সন্তানদের জন্য ২%, মুক্তিযোদ্ধার সন্তান/মুক্তিযোদ্ধার পুত্রের পুত্র/কন্যা অথবা কন্যার পুত্র অথবা কন্যার ক্ষেত্রে ৫% এবং প্রতিবন্ধী শিক্ষার্থীদের ক্ষেত্রে ২% কোটা সংরক্ষিত থাকবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView72"
+                android:layout_below="@+id/textView71"
+                android:text="(জ)আসন শূন্য থাকা সাপেক্ষে সরকারি প্রতিষ্ঠানে কর্মরত কর্মকর্তা ও কর্মচারীদের বদলীজনিত কারণে তাদের সন্তানদের ভর্তির (তৃতীয় থেকে দশম শ্রেণি) সুযোগ রয়েছো। এ ধরণের ভর্তি বিজ্ঞপ্তি উপপরিচালক,রাজশাহী অঞ্চল,রাজশাহী এর কার্যালয় থেকে প্রচার করা হয়। সেখান থেকে আবেদন ফরম সংগ্রহ ও জমা প্রদান পূর্বক লিখিত পরীক্ষার মাধ্যমে পছন্দের  ক্রম ও মেধার ভিত্তিতে যোগ্য ছাত্র নির্বাচিত করা হয় ।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:text="৩। বিদ্যালয় পোশাক "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:layout_below="@+id/textView72"
+                android:id="@+id/textView73" />
+            <TextView
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView74"
+                android:layout_below="@+id/textView73"
+                android:text="(১) সাদা সা্রট ,খাকি প্যান্ট ,কাল জুতা,সাদা মোজা, বিদ্যালয় ব্যাচ, মেরুন কালার সুয়েটার (হাফ/ফুল/V গলা)।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView75"
+                android:layout_below="@+id/textView74"
+                android:text="(২) নির্ধারিত পোশাকে (স্কুল পোশাক) সজ্জিত হয়েই বিদ্যালয়ে আসতে হবে; অনিবার্য কারন বসত সম্ভব না হলে পুরবানুমদন গ্রহন করতে হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:text="৪। বেতন ও অন্যান্য ফিস পরিশোধ "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:layout_below="@+id/textView75"
+                android:id="@+id/textView76" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView77"
+                android:layout_below="@+id/textView76"
+                android:text="(১) প্রতিমাসের ৫ তারিখ (সরকারি ছুটি হলে পরের দিন) বেতন আদায় তারিখ ।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView78"
+                android:layout_below="@+id/textView77"
+                android:text="(২) কোন মাসের বেতন বাকি থাকলে ১ টাকা জরিমানাসহ পরবর্তী মাসে আবেদনসহ বেতন পরিশদ করতে হবে। পর পর ২ মাস বেতন পরিশদ করা না হলে নাম কর্তন করা হবে এবং পুনঃ ভর্তি হতে হবে। এই দুই ক্ষেত্রে আবেদন আবশ্যক। " />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView79"
+                android:layout_below="@+id/textView78"
+                android:text="(৩) অষ্টম-নবম শ্রেণীতে নাম কর্তন তিন মাশের অধিক হলে তা পাঠ বিরতি হিসেবে পরিগনিত হবে এবং পাঠ-বিরতি খণ্ডনের জন্য শিক্ষা বোর্ডের অনুমোদন প্রয়োজন হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView80"
+                android:layout_below="@+id/textView79"
+                android:text="(৪) প্রয়োজনে অগ্রিম বেতন ও পাওনাদি প্রদান করা জাবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView81"
+                android:layout_below="@+id/textView80"
+                android:text="(৫) পঠনপাঠনের স্বার্থে ও হিসাব নিকাশের স্বার্থে প্রতিমাসে নিয়মিত বেতন ও পাওনাদি পরিশধের জন্য সকল  অভিভাবকবৃন্দকে অনুরধ করা হল।" />
+            <TextView
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:id="@+id/textView82"
+                android:layout_below="@+id/textView81"
+                android:text="৫। বিদ্দালয়ে অনুপস্থিতি ও ছুটি মঞ্জুর " />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView83"
+                android:layout_below="@+id/textView82"
+                android:text="(১) এক নাগাড়ে এক মাশের বেশি অনুপস্থিত থাকলে নাম কাটা জাবে ।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView84"
+                android:layout_below="@+id/textView83"
+                android:text="(২) অগ্রিম ছুটি নিতে হলে বা অনুপস্থিত থাকলে অভিভাবকের মাধ্যমে শ্রেণি শিক্ষকের সুপারিশে প্রধান শিক্ষকের অনুমোদন নিতে হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView85"
+                android:layout_below="@+id/textView84"
+                android:text="(৩) পরপর তিন দিন বা মাশে সাতদিনের অধিক বিনা অনুমতিতে অনুপস্থিত থাকলে তার বেতন গ্রহন সাময়ইকভাবে বন্ধ থাকবে।অভিভাবক সন্তোষজনক কারন দেখিয়ে আবেদন করলে প্রধান শিক্ষক শ্রেণি শিক্ষকের সুপারিশে বেতন গ্রহনের আদেশ দেন।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView86"
+                android:layout_below="@+id/textView85"
+                android:text="(৪) সাময়িক ছুটির আবেদন শ্রেণি শিক্ষকের সুপারিশে প্রধান শিক্ষক মঞ্জুর করেন।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView87"
+                android:layout_below="@+id/textView86"
+                android:text="(৫) স্কুল পলায়ন গুরুতর অসদাচরণ হিসেবে গন্য হয়, অভিভাবককে বিষয়টি জানান হয় ও প্রয়োজনীয় ব্যবস্থা গ্রহন করা হয়।" />
+            <TextView
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff0bde"
+                android:textSize="22dp"
+                android:id="@+id/textView88"
+                android:layout_below="@+id/textView87"
+                android:text="৬। পরীক্ষা ও ফলাফল " />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView89"
+                android:layout_below="@+id/textView88"
+                android:text="(১) বৎসরে  দুইটি পরীক্ষা অনুষ্ঠিত হয় । এগুলোর নম্বরসহযোগে চূড়ান্ত ফলাফল ঘোষিত হয়।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView90"
+                android:layout_below="@+id/textView89"
+                android:text="(২) পরীক্ষাই অনুপস্থিত থাকা জাবে না। অনিবার্য কারনে কেউ অনুপস্থিত থাকলে সংশ্লিষ্ট ছাত্রের অভিভাবককে যথাশীঘ্র প্রধান শিক্ষককে বিষয়টি লিখিতভাবে জানাতে হবে।অসুস্থতার জন্যে অবশ্যই রেজিস্টার্ড চিকিৎসকের প্রয়োজন হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView91"
+                android:layout_below="@+id/textView90"
+                android:text="(৩) সকল বিষয়ে পাস করলেই কেবল পরবর্তী শ্রেণীতে উতীর্ণ  করা হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView92"
+                android:layout_below="@+id/textView91"
+                android:text="(৪) শ্রেণি পরীক্ষা ও কোর্স ওয়ার্কে অংশগ্রহণ আবশ্যিক। অনুপস্থিত থাকলে সংশ্লিষ্ট বিষয়ে অকৃতকার্য ধরা হবে। শ্রেণি পরীক্ষা ও কোর্স ওয়ার্কের জন্য পৃথক সময়সূচী থাকবে না; বিসয়ভিত্তিক শিক্ষক শ্রেণীতে এটি তার সুভিধামত গ্রহন করবেন। এজন্যে ছাত্রদের নিয়মিত বিদ্যালয়ে উপস্থিতি আবশ্যক।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView93"
+                android:layout_below="@+id/textView92"
+                android:text="(৫) ব্যবহারিক বিষয়ে অনুপস্থিত থাকলে অকৃতকার্য ধরা হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView94"
+                android:layout_below="@+id/textView93"
+                android:text="(৬) সাময়িক/সেমিষ্টার পরীক্ষা, কোর্স ওয়ার্ক, শ্রেণি পরীক্ষা ও ব্যবহারিক পরীক্ষার প্রতিটিতে প্রিথকভাবে পাস করতে হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView95"
+                android:layout_below="@+id/textView94"
+                android:text="(৭) প্রতিটি পরীক্ষার ৫০% নাম্বার সহযোগে চূড়ান্ত ফলাফল ঘষিত হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView96"
+                android:layout_below="@+id/textView95"
+                android:text="(৮) ফলাফল লেটার গ্রেডিং পদ্ধতিতে প্রকাশিত হয়। একাধিক ছাত্রে জপিএ একই হলে সে ক্ষেত্রে প্রাপ্ত মোট নাম্বরের ভিত্তিতে মেধাক্রম নির্ধারণ করা হয়। শ্রেণি মেধাক্রম/ রোল নম্বর প্রাথমিক শিক্ষা সমাপণী পরীক্ষা ও জুনিয়র স্কুল সার্টিফিকেট (জাএসসি) পরীক্ষা এবং বিদ্যালয়ের অভ্যন্তরীন  পরীক্ষার ফলাফলের সমন্বয়ে (যদি প্রয়োজন হয়) নির্ধারিত হয়।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView97"
+                android:layout_below="@+id/textView96"
+                android:text="(৯) পরীক্ষার কৃতিত্বের রিপোর্ট (নম্বর পত্র ) ফলাফল ঘোষণার দিনই ছাত্রদের মাধ্যমে অভিভাবককে অবহিত করার জন্যে প্রেরণ করা হবে। অভিভাবকের স্বাক্ষর গ্রহন করে তা ০৩ দিন আর মধ্যে শ্রেণী শিক্ষকের কাছে জমা দিতে হবে। বার্ষিক ও নির্বাচনী পরীক্ষা শেষে কৃতিত্বের রিপোর্ট জমা দিতে হই না।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView98"
+                android:layout_below="@+id/textView97"
+                android:text="(১০) মোট কার্যদিবসের শতকরা ৮০ দিন বিদ্যালয়ে উপস্থিত থাকতে হবে; নচেৎ পরীক্ষাই অংশ গ্রহন করতে দেয়া হবে না। শতকরা ১০০ শত ভাগ শিক্ষার্থীদের পুরস্কৃত করা হবে।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView99"
+                android:layout_below="@+id/textView98"
+                android:text="(১১) পুনরালোচনাভুক্ত পাঠ্যসূচি থেকে সর্বোচ্চ ২০% প্রশ্ন বার্ষিক পরীক্ষাই সংযোজিত হতে পারে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView100"
+                android:layout_below="@+id/textView99"
+                android:text="(১২) বাংলা ও ইংরেজি  বিষয়ের সারাংশ , অনুবাদ , পত্র ,ভাবসম্প্রসারন,রচনা, প্যারাগ্রাফ প্রভৃতি পাঠ পরিকল্পনার বাইরে থাকতে পারে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView101"
+                android:layout_below="@+id/textView100"
+                android:text="(১৩)সরকারি সিধান্ত মোতাবেক প্রশ্নের ভাষা ও সংখ্যা পুরোপুরি বই থেকে না থেকে প্রয়োজনীয় পরিবর্তন করা হতে পারে। " />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView102"
+                android:layout_below="@+id/textView101"
+                android:text="(১৪) এস এসসি  পরীক্ষার ফর্ম ফিলাপ করার জন্য ১০ম শ্রেনির ছাত্রদের প্রাক-নির্বাচনী ও নির্বাচনী পরীক্ষা পৃথক পৃথকভাবে   পরীক্ষাই উতীর্ণ হতে হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView103"
+                android:layout_below="@+id/textView102"
+                android:text="(১৫) ৫ম ও ৮ম শ্রেণীতে নির্বাচনী পরীক্ষাই উতীর্ণ হতে না পারলে যথাক্রমে প্রাথমিক সমাপনি ও জে এস সি পরীক্ষাই অংশ গ্রহন করতে দেয়া হবে না।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView104"
+                android:layout_below="@+id/textView103"
+                android:text="(১৬) প্রমোশনের ব্যাপারে বিদ্যালয়ের কর্তৃপক্ষের  সিধান্তই চূড়ান্ত ।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView105"
+                android:layout_below="@+id/textView104"
+                android:text="(১৭) জে এস সি পরীক্ষাই গনিত ও বিজ্ঞানে কমপক্ষে গ্রেড বি ( গ্রেড ৩ ) না পেলে নবম স্রেনিতে বিজ্ঞান বিভাগে পড়ার সুযোগ দেয়া হয় না।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="20dp"
+                android:id="@+id/textView106"
+                android:layout_below="@+id/textView105"
+                android:text="(১৮) পরপর দুইবৎসর একই শ্রেণীতে অকৃতকার্য হলে সংশ্লিষ্ট ছাত্রকে আবশ্যিক ছাড়পত্র (টি ছি) নিতে হবে।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="22dp"
+                android:id="@+id/textView107"
+                android:layout_below="@+id/textView106"
+                android:text="৭। দরিদ্র কিন্তু মেধাবী , বিদ্যালয়ে নিয়মিত উপস্থিতি, সদাচরন ও শৃঙ্খলা ইত্যাদির ভিত্তিতে প্রতি জুলাই-জুন আর্থিক বছরে যোগ্য ছাত্রকে বিনা বেতনে পড়ার সুযোক দেয়া হয়।সাধারনত প্রতি বছরের জুলাই মাসের প্রথম সপ্তাহে দরখাস্ত আহব্বান করা হয়। এছাড়া দরিদ্র ছাত্র অভিভাবকের মাধ্যমে আবেদন করলে বই কেনা,বিদ্দালয়ের পোশাক খরিদ ,এস এস সি পরীক্ষার ফর্ম ফিলাপ , অভ্যন্তরিন ব্যয় নির্বাহ ইত্যাদির জন্য বিদ্যালয়ের বেসরকারি তাহবিল দরিদ্র ভাণ্ডার থেকে এককালীন অর্থ মঞ্জুর দেয়া হয়।" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="22dp"
+                android:id="@+id/textView108"
+                android:layout_below="@+id/textView107"
+                android:text="৮। কোন ছাত্র বিদ্যালয়ের আইন শৃঙ্খলার পরিপন্থি কোন কাজ করলে তার বিরুদ্ধে উপযুক্ত ব্যবস্থা গ্রহন করা হবে, অপরাধ গুরুতর বিবেচনাই ছাড়পত্র (টি ছি) প্রদান করা হবে।" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffd318ff"
+                android:textSize="22dp"
+                android:id="@+id/textView109"
+                android:layout_below="@+id/textView108"
+                android:text="৯। প্রয়োজনীয় তথ্যের জন্যে বিদ্যালয়ের প্রধান শিক্ষক/ সহকারি প্রধান শিক্ষক /অফিসে যোগাযোগ করতে হবে। বিদ্যালয় চলাকালিন সরাসরি শ্রেণী কক্ষে ছাত্রের সাথে সাক্ষাত করা বাঞ্ছনিয় নয়। সাক্ষাতের প্রয়োজন হলে প্রধান শিক্ষকের/সহকারি প্রধান শিক্ষকের অনুমিতি সাপেক্ষে অফিসে সাক্ষাত করা যাবে।" />
+
+            <TextView
+                android:background="@android:drawable/alert_light_frame"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff10b5"
+                android:textSize="22dp"
+                android:id="@+id/textView110"
+                android:layout_below="@+id/textView109"
+                android:text="Thank You" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

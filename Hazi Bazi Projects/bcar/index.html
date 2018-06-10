@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Happy Birthday</title>
+<link rel="shortcut icon" href="favicon.png"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="fonts.css"/>
+<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#main").toggleClass("animate");
+    });
+});
+</script>
+<script type="text/javascript" language="javascript">
+    function loading()
+    {
+    document.getElementById("loading").style.display = 'none';
+    }
+    window.onload = loading;
+</script>
+</head>
+
+
+<embed controls name="GoodEnough" src="bb1.mp3" loop="infinite" hidden="true" autostart="true">
+<div id="main">
+<a id="flip" class="icon-circle-right" href="#"></a>
+</div><!--Main-->
+<div id="page">
+<div id="text">
+<div id="greeting">
+<img src="24.jpg" width="200" /><h1>Happy Birthday Titir<br/>It's 14'th April....<span class="icon-gift"></span></h1>
+</div><!--Greeting-->
+<br/>
+<hr color="#333" align="right" width="device-width" />
+
+<h2>I hope you have a wonderful day and that the year ahead is filled with much love, many wonderful surprises and gives you lasting memories that you will cherish in all the days ahead. Happy Birthday Titir!</h2>
+</div><!--Text-->
+<a class="icon-circle-left" href="#" onclick='location.reload(true); return false;'></a>
+</div><!--Page-->
+<div id="loading">
+<center>
+<h1>Let me load......</h1>
+<h2 class=" icon-spinner9"/>
+</center>
+</div><!--Loading-->
+</body>
+</html>

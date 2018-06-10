@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.About_School"
+    android:background="#fff1ffa3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView11"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rglhslogo" />
+
+    <ImageView
+        android:layout_below="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rglhs" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Establish"
+        android:id="@+id/butt"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff2bff91"
+        android:background="@android:drawable/alert_light_frame" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locations"
+        android:id="@+id/buttt2"
+        android:layout_below="@+id/butt"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff19a841"
+        android:background="@android:drawable/alert_light_frame" />
+</RelativeLayout>

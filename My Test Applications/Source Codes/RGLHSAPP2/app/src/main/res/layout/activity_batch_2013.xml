@@ -1,0 +1,3693 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff1a07ff">
+    <TextView
+        android:id="@+id/tr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batch 2013"
+        android:textSize="26dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/alert_light_frame"
+        android:textColor="#ff210dff" />
+
+    <ScrollView
+        android:layout_below="@+id/tr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#001fff1a">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff37eaff">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Sl no"
+                android:textColor="#ffff1d19"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Student Name"
+                android:textColor="#ffff2229"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="001"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SHAHNEAZ SOBHAN NISHAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff56">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="002"
+                android:textColor="#ffff3825"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. RAGIB ANJUM"
+                android:textColor="#ffff2209"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6ff18">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="003"
+                android:textColor="#ffff2b16"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="IHZAZ ABRAR SAJID"
+                android:textColor="#ffff1121"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff32ff4a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="004"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SAJIID JAWAD TALUKDER"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="005"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. FAHIM SHAHRIAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1cff4e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="006"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MAHMUD-E-REZA"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="007"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TASNIM SHAHRIAR SHISH"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3dff5f">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="008"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. NAFIU MUBTASIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="009"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="PRATIM CHAKRABORTTY"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff16ff5e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="010"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="NAZMUS SAKIB"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="011"
+                android:textColor="#ffff2932"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="KHANDOKER FAIYAZ"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1dff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="012"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MEEM SADOT SHAHRIAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="013"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. RAIHANUL ALAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2cff52">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="014"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. FARHAN KIBRIYA"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="015"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. ARSHIL HUSSAIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3bff39">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="016"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Omar Faruk Riyadh"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="017"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. MARUF HASSAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff45">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="018"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="ARUNIM HAQ SOUNAK"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="019"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="RIDWAN ISMUM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff29ff55">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="020"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SAAD IBNE NOOR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="021"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. TAMMIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1fff32">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="022"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="WASI ARMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="023"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SOUGATA DAS"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff28ff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="024"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.RAFIOUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="025"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.FAHIMIDUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff56">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="026"
+                android:textColor="#ffff3825"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TAASIN AHMED"
+                android:textColor="#ffff2209"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6ff18">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="027"
+                android:textColor="#ffff2b16"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="RAHAT RANVIR"
+                android:textColor="#ffff1121"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff32ff4a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="028"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="AYMAN TASJEED"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="029"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. SHOHANUR RAHMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1cff4e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="030"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.AFNAN ABEDIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="031"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.NAFIS KARIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3dff5f">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="032"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="AKHI SIRAZ UDDIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="033"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. IMTIAJ AHAMED"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff16ff5e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="034"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="ABU SALEH MD.FARHAT"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="035"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.RAFIUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1dff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="036"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.MUSFIQUR RAHMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="037"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.SAYED HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2cff52">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="038"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="ADIB ABTAHI"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="039"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TOKI TAZYAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3bff39">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="040"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TAWFIQUE TAJMMUL"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="041"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="FARHAN ISRAK TANZIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff45">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="042"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="AL SHAHRIAR ALIF"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="043"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SHOUVIK DAS"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff29ff55">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="044"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. MAIDUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="045"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MAHMEDUL ALAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1fff32">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="046"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="KAZI NAIMUR RAHMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6ff18">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="047"
+                android:textColor="#ffff2b16"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MAHIM AHMED MONDAL"
+                android:textColor="#ffff1121"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff32ff4a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="048"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MOSTOFA WAHID ALAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="049"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="JAWAD HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1cff4e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="050"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. GOLAM SHARIAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="051"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. FAHMID HOSSAIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3dff5f">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="052"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="IMRAN AL ARABI"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="053"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.ABDULLAH AL JAME"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff16ff5e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="054"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. REIZWANUZ ZAMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="055"
+                android:textColor="#ffff2932"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. ZAYED KHAN SHADHIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1dff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="056"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="NAZMUS SAKIB"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="057"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Tahmid Islam Siddique"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2cff52">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="058"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SHAMS ADITYA PRAPPO"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="059"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MUSHFIQUR SARKAR APON"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3bff39">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="060"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TAUSIF YASA"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="061"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="ABDULLAH AL MOHAIMIN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff45">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="062"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="FAHAD AHMAD"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="063"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="S.M MUBARRAT SHAHRIAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff29ff55">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="064"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. SADIK SAFKIAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="065"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MAHMUD HASIB"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1fff32">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="066"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="K.M. RAINUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="067"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TAHMID FARHAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff28ff5a">
+            <TextView
+                android:id="@+id/tv_propertylistitem_slno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="068"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_propertylistitem_tenentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="FARHAN NADIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="069"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MUHIT HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff56">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="070"
+                android:textColor="#ffff3825"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="IRFAN SADIQUE"
+                android:textColor="#ffff2209"
+                android:textSize="17sp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6ff18">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="071"
+                android:textColor="#ffff2b16"
+                android:textSize="17sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="RAKIB AHMED"
+                android:textColor="#ffff1121"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff32ff4a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="072"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.RADIBUL HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="073"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.SHAMSUZZOHA OVI"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1cff4e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="074"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.MOHTASIM TARAFDER"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="075"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SHAIKH ABDULLAH"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3dff5f">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="076"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="FAIYAJ AHMED"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="077"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="AL SHAHRIAR SAZID"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff16ff5e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="078"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. MAHIR FAISAL"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="079"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.ASHIQUL ISLAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1dff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="080"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md. Samin Yasar"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="081"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="GOURAB ROY"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2cff52">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="082"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MUHTASIM-AL-FAHIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="083"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="A.B ARAFAT SUN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3bff39">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="084"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SULTAN AHMED"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="085"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TANZID AHMED CHOWDHURY"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff45">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="086"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.ABRAR FAHIM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="087"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="SEHRAN ALAM"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff29ff55">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="088"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.TASFIQ AHMED"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="089"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="M.FAHIM ABRAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1fff32">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="090"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="FAHIM SAHAREAR"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="091"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="IMROZ WAHID"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff28ff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="092"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.NAFIS SADOT"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff6ff18">
+            <TextView
+                android:id="@+id/tv_propertylistitem_slno2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="093"
+                android:textColor="#ffff2b16"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_propertylistitem_tenentname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.FAHIM FOYSHAL"
+                android:textColor="#ffff1121"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff32ff4a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="094"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="TAHMID HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="095"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD.AFIDUR RAHMAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1cff4e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="096"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. SHAFIS SADIQ"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="097"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. MUSFIQ HASAN"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3dff5f">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="098"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="MD. MAHFUJUL HAQUE"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="099"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Mohaimin Ul Islam"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff16ff5e">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="100"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Apurbo Chandra Pramanik"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="101"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md.Minhaj Ahmed"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1dff5a">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="102"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md.Tohidul Islam"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="103"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Abdullah Al Shafayat"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff2cff52">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="104"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Waseque Arham Diyan"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="105"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Jobaer Ahmed Salbi"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3bff39">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="106"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Tanzid Ahmed Anik"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="107"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md.Rifatuzzaman"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1aff45">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="108"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md.Hadi Un Nabi"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="109"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Riad All Din"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff29ff55">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="110"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Farhan Islam"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="111"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Mmd.Mujahedul Islam"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1fff32">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="112"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Tahmid Ahsab"
+                android:textColor="#ffff5943"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff5ff14">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="113"
+                android:textColor="#ffff2932"
+                android:textSize="15sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/valuecellborder"
+                android:paddingBottom="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="6dp"
+                android:text="Md.Tahsin Islam Siddique"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

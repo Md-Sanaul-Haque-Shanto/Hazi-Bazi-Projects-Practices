@@ -1,0 +1,329 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Achivements"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achivement"
+        android:id="@+id/textView32"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff17a531"
+        android:textSize="26dp"
+        android:background="@android:drawable/alert_light_frame" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView12"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_below="@+id/textView50"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im12"
+                android:src="@drawable/sco11" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scout Camping "
+                android:id="@+id/textView51"
+                android:textSize="20dp"
+                android:textColor="#ffff1596" />
+            <ImageView
+                android:layout_below="@+id/textView51"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im13"
+                android:src="@drawable/scn144" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scout For National Event Group"
+                android:id="@+id/textView52"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView52"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im14"
+                android:src="@drawable/pp4" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parade In Independence Day"
+                android:id="@+id/textView53"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView53"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im15"
+                android:src="@drawable/sciencefai1r" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science Fair 37th on  12/02/2016.Md Sanaul Haque Shanto Batch 2010 Got 2nd Prize For Project And Also Sahriar M Fahim Got 2nd Prize For Debate ."
+                android:id="@+id/textView54"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView54"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im16"
+                android:src="@drawable/astro" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView55"
+                android:text="We Also Participate In 11th Astro Olympiad And Show A Good Result In Divisional And National Round.Md Shek Shafayat Soto Batch 2010 Got 11th Position In National Round."
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView55"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im17"
+                android:src="@drawable/nh188" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We Also Perticipate In NHSPC 2016.both Section Programming Contest And Quiz  Tahsinul Islam Tans Batch 2011 (4th) And Md Sanaul Haque Shanto Batch 2010(5th) in Divisonal Round and Also Good Result In National Round.Meftahul Jannat Batch 2009 Made Good Result In Divisonal Round In Quiz."
+                android:id="@+id/textView56"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView56"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im18"
+                android:src="@drawable/sciencefair2" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science Fair 12/04/2016 Tahsinul Islam Tans Got 1st Prize ."
+                android:id="@+id/textView57"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView57"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im19"
+                android:src="@drawable/bit1" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We Also Perticipate In Debate And Got 2nd Prize In RDC Debating Compitition 23/08/2016"
+                android:id="@+id/textView59"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView59"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im20"
+                android:src="@drawable/footballteam" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We Have A FootBall Team For Perticipating Any Sports"
+                android:id="@+id/textView60"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView60"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im21"
+                android:src="@drawable/ma96" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We Also Participate In Humanities Events"
+                android:id="@+id/textView61"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_below="@+id/textView61"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im22" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView62" />
+            <ImageView
+                android:layout_below="@+id/textView62"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im23" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView63" />
+            <ImageView
+                android:layout_below="@+id/textView63"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im24" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView64" />
+            <ImageView
+                android:layout_below="@+id/textView64"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im25" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView65" />
+            <ImageView
+                android:layout_below="@+id/textView65"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im26" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView66" />
+            <ImageView
+                android:layout_below="@+id/textView66"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im27" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView67" />
+            <ImageView
+                android:layout_below="@+id/textView67"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im28" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView68" />
+            <ImageView
+                android:layout_below="@+id/textView68"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/im29" />
+
+            <TextView
+                android:textColor="#ffff1596"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/textView69" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

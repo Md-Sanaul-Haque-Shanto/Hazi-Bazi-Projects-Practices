@@ -1,0 +1,240 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Gallary"
+    android:background="#fff1ffa3"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+
+        android:src="@drawable/rglhslogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:layout_below="@+id/imageView9"
+
+        android:layout_centerHorizontal="true"
+        android:text="Gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame"
+        android:textSize="25dp"
+
+        android:id="@+id/textView39"
+        android:textColor="#ff18c549" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView11"
+        android:layout_below="@+id/textView39"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im1"
+                android:src="@drawable/schf" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Gate Fornt Picture"
+                android:id="@+id/textView40"
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp" />
+            <ImageView
+                android:layout_below="@+id/textView40"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im2"
+                android:src="@drawable/rglhs" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Ground"
+                android:id="@+id/textView41" />
+            <ImageView
+                android:layout_below="@+id/textView41"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im3"
+                android:src="@drawable/download3" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Picture On Fly"
+                android:id="@+id/textView42" />
+            <ImageView
+                android:layout_below="@+id/textView42"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im4"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At Class Room"
+                android:id="@+id/textView43" />
+            <ImageView
+                android:layout_below="@+id/textView43"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im5"
+                android:src="@drawable/sir14" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher Are Very Helpfull"
+                android:id="@+id/textView44" />
+            <ImageView
+                android:layout_below="@+id/textView44"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im6"
+                android:src="@drawable/lab78" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At Biology Laboratory"
+                android:id="@+id/textView45" />
+            <ImageView
+                android:layout_below="@+id/textView45"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im7"
+                android:src="@drawable/download2" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At Chemistry Laboratory"
+                android:id="@+id/textView46" />
+            <ImageView
+                android:layout_below="@+id/textView46"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im8"
+                android:src="@drawable/images" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At Computer Lab"
+                android:id="@+id/textView47" />
+            <ImageView
+                android:layout_below="@+id/textView47"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im9"
+                android:src="@drawable/mil78" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our School Auditorium"
+                android:id="@+id/textView48" />
+            <ImageView
+                android:layout_below="@+id/textView48"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im10"
+                android:src="@drawable/soh155" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sahid Minar Proud"
+                android:id="@+id/textView49" />
+            <ImageView
+                android:layout_below="@+id/textView49"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/im11"
+                android:src="@drawable/sikha12" />
+
+            <TextView
+                android:textColor="#ffff0ec8"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/im11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Educational Event In 2012"
+                android:id="@+id/textView50" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

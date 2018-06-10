@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+     tools:context=".Welcome_Activity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:gravity="center_horizontal"
+        android:text="Welcome To Govt, Laboratory High School Rajshahi App"
+        android:textSize="25dp"
+        android:textColorHighlight="#009912"
+        android:textColor="#ff9932"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/welcomelogo"
+        android:src="@drawable/aa11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

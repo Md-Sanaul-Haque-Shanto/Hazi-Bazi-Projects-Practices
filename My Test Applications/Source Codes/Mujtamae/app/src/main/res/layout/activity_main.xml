@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.shanto.mujtamaea.MainActivity">
+
+
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="center_horizontal" />
+
+
+    <WebView
+        android:id="@+id/wv_brow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.80">
+
+    </WebView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+
+        android:id="@+id/ll_btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/colorAccent">
+
+        <Button
+            android:id="@+id/btn_fwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/forwordd"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/btn_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/backk"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_reload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/refresh"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@drawable/aboutdevo"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+     <!-- view for AdMob Banner Ad -->
+
+
+</LinearLayout>

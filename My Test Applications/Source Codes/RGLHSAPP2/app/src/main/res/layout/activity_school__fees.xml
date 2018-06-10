@@ -1,0 +1,1167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff1ffa3"
+    tools:context="com.example.shanato.rglhsapp.School_Fees">
+
+    <TextView
+       android:layout_centerHorizontal="true"
+        android:text="School Fees"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/toast_frame"
+        android:textSize="25dp"
+        android:textColor="#ff09b94b"
+        android:id="@+id/textView39" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView8"
+        android:layout_below="@+id/textView39">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_centerHorizontal="true"
+                android:text="Government Fees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="20dp"
+                android:textColor="#ff4d14ff"
+                android:id="@+id/textView37" />
+
+
+            <TableLayout
+                android:id="@+id/tab1"
+                android:layout_below="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff2012ff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Catagory"
+                        android:textColor="#ffff1d19"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Fees"
+                        android:textColor="#ffff2229"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Monthly Fees (3 To 5)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="6/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Monthly Fees 6 Class"
+                        android:textColor="#f2bf071a"
+                        android:textSize="17sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="10/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Monthly Fees 7&amp;8 Class"
+                        android:textColor="#f2bf071a"
+                        android:textSize="17sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="12/-"
+                        android:textColor="#ff0e9123"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Monthly Fees Class 9&amp;10"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="15"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Admission&amp;Readmission Fess"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Same To Monthly Fees"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="T.C Fees"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp"
+                        android:text="Same To Monthly Fees" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Electrical Fan Fees"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="1/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Absence Fees"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="0.06/-(Daily)"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>  <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/valuecellborder"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="6dp"
+                    android:text="Monthly Fees Not Procide Fees"
+                    android:textColor="#f2bf071a"
+                    android:textSize="15sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/valuecellborder"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="6dp"
+                    android:text="1/-"
+                    android:textColor="#f2388f09"
+                    android:textSize="17sp" />
+
+
+            </TableRow>
+
+
+
+            </TableLayout>
+
+            <TextView
+android:layout_below="@+id/tab1"
+                android:layout_centerHorizontal="true"
+                android:text="Service Fees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="20dp"
+                android:textColor="#ff4d14ff"
+                android:id="@+id/textView41" />
+
+
+            <TableLayout
+                android:id="@+id/tab12"
+                android:layout_below="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff2012ff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Catagory"
+                        android:textColor="#ffff1d19"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Fees"
+                        android:textColor="#ffff2229"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="School Dairy"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="40/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Session Charge(Yearly)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="17sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp"
+                        android:text="-----" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Printing"
+                        android:textColor="#f2bf071a"
+                        android:textSize="17sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/cellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="100/-"
+                        android:textColor="#ff0e9123"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Tiffine (Monthly)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="40/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Megazine"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="20/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Sports"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="70/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Cultural Programs"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="60/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Religion Programs"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="40/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Library"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="10/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Poor Found"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="05/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Computer(Monthly)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp"
+                        android:text="20/-" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp"
+                        android:text="Agriculture&amp;Garden" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="20/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Laboratory"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="20/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Scout Den"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="20/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Red Cricent"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="15/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Common Room"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="10/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="School Staffs"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="300/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="FairWell"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="30/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Treatment"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="05/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Others"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="100/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Exam (All Period)Class(3 To 5)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="150/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="Exam(All Periods)Class(6 To 10)"
+                        android:textColor="#f2bf071a"
+                        android:textSize="15sp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/valuecellborder"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="3dp"
+                        android:paddingTop="6dp"
+                        android:text="300/-"
+                        android:textColor="#f2388f09"
+                        android:textSize="17sp" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </RelativeLayout>
+
+
+
+
+
+
+        </ScrollView>
+
+</RelativeLayout>

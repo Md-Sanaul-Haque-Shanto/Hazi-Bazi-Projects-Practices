@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.MainActivity"
+    android:background="#fff1ffa3"
+    android:padding="5dp">
+
+    <ImageView
+        android:src="@drawable/rglhslogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imag1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top" />
+
+    <ImageView
+        android:src="@drawable/rglhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imag2"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imag1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/buttt12"
+        android:text="Enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imag2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/ic_input_add" />
+    <ScrollView
+        android:layout_below="@+id/buttt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="In the modern era of science and technology, every country in the world has chosen Information-technology as they are approching for greater development at culture, education, economy and so on, and our country is no exception. Since, computer,Phone and internet are three two most powerful and fastest communication system in the field of Information-technology, along with developed countries ours have also started internet based system for betterment in educational activities; and this is only our little effort in this long path of achievement and the school's well-cherished desire of having a Android App of our own."
+
+
+                android:padding="5dp"
+                android:textColor="#ffff51e7" />
+
+
+
+        </RelativeLayout></ScrollView>
+
+
+</RelativeLayout>

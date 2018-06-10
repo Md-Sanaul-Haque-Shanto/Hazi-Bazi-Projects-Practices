@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Contacts_Us"
+    android:background="#fff1ffa3">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+
+        android:src="@drawable/rglhslogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0ecf60"
+        android:textSize="26dp"
+        android:background="@android:drawable/toast_frame" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post Code 6000"
+                android:id="@+id/textView35"
+                android:textSize="20dp"
+                android:textColor="#ffff7919" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fax No: 772304"
+                android:id="@+id/textView3"
+                android:textSize="20dp"
+                android:textColor="#ffff16a1" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail1:rglhs69@gmail.com"
+                android:id="@+id/textView"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail2: info@rglhs.edu.bd"
+                android:id="@+id/textView351"
+                android:textSize="20dp"
+                android:textColor="#ffff1617" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView351"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView352"
+                android:textSize="20dp"
+                android:textColor="#ffff7919" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView351"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TelePhone"
+                android:id="@+id/textView353"
+                android:textSize="20dp"
+                android:textColor="#ffe01fff" />
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView353"
+                android:id="@+id/textView354"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:background="@android:drawable/sym_action_call"
+                 />
+
+            <TextView
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView354"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell Phone"
+                android:id="@+id/textView355"
+                android:textSize="20dp"
+                android:textColor="#ffff7919" />
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView356"
+                android:layout_below="@+id/textView355"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/sym_action_call"
+                android:text="Call" />
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.About_App"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+
+        android:src="@drawable/rglhslogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:layout_below="@+id/imageView9"
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About App"
+        android:textColor="#ff1f18ff"
+        android:background="@android:drawable/alert_light_frame"
+        android:textSize="24dp"
+
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView10"
+        android:layout_below="@+id/tx"
+         >
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Support"
+                android:textColor="#ff1f18ff"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="20dp"
+
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_below="@+id/tx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Platform API 18,Android 4.03 jelly Bean To Uppor"
+                android:id="@+id/textView38"
+                android:textSize="16dp"
+                android:textColor="#ffff0f35" />
+
+            <TextView
+                android:layout_below="@+id/textView38"
+                android:id="@+id/tx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thank Full"
+                android:textColor="#ff1f18ff"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="20dp"
+
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_below="@+id/tx12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am Md. Sanaul Haque Shanto Very thankful to our teacher&apos;s for their helpfull attitude.Mostly thank to Mosarraf sir for inspiring me and permit me to use computer lab,I also want to thank Suvra madam for giving me all school data and also thank Atwar sir for giving me school data and giving inspiration."
+                android:id="@+id/tx13"
+                android:textSize="18dp"
+                android:textColor="#ff0fb243" />
+            <TextView
+                android:layout_below="@+id/tx13"
+                android:id="@+id/tx15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Say For Student"
+                android:textColor="#ff1f18ff"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="20dp"
+
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_below="@+id/tx15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hey We Are Labrotorian.Our School Is The Best Boys School In Rajshahi District So Why Not We Are Difference Between All Others Institute. Always We Can Do Difference Between All Other In Our Country Because We Are Very Brilliant Students.This Is A Android App Made For Students.This App Contain Our School Opportunity.And It is Also Made For School All Data Archives .It Is A Miror Of Digitalization Of Paper Archives.Any Students Can Using This App For Clearly Known About Our School. Students Can Collect Data  For Any Concious And Needed.So Friends Thank You ."
+                 android:id="@+id/tx16"
+                android:textSize="18dp"
+                android:textColor="#ff13a946" />
+            <TextView
+                android:layout_below="@+id/tx16"
+                android:id="@+id/tx17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact With App Admin"
+                android:textColor="#ff1f18ff"
+                android:background="@android:drawable/alert_light_frame"
+                android:textSize="18dp"
+
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_below="@+id/tx17"
+                android:id="@+id/tx19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:rglhsapps@gmail.com"
+                android:textColor="#ff1f18ff"
+
+                android:textSize="18dp"
+
+                android:layout_centerHorizontal="true" />
+
+<Button
+    android:layout_below="@+id/tx19"
+    android:id="@+id/buta1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/share_fb"
+    android:text="Facebook Page"
+    android:textColor="#ffff0e9b" />
+
+            <Button
+                android:layout_below="@+id/buta1"
+                android:id="@+id/buta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rss"
+                android:text="App WebSite"
+                android:textColor="#ffff1586" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

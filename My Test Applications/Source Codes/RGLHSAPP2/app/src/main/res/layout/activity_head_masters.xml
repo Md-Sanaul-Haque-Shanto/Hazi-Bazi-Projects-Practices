@@ -1,0 +1,830 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/immm"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:src="@drawable/rglhslogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_below="@+id/immm"
+        android:id="@+id/texxx"
+        android:text="Established To Present HeadMasters List"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff170bff" />
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/texxx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_gravity="center">
+
+                <TableRow
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sl No"
+                        android:id="@+id/textView29"
+                        android:background="@drawable/cellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="HeadMasters Name"
+                        android:id="@+id/textView30"
+                        android:background="@drawable/cellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Working Periods"
+                        android:id="@+id/textView31"
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/cellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="01"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mohammad Izharul Haque"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="02/01/1969  To 05/10/1972"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="02"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md.Bahadur Ali Sorkar"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="06/11/1972  To  02/11/1977"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="03"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mohammad Alauddin"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="31/11/1977   To  30/07/1980"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="04"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md. Ramazan Ali"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="11/09/1980   To  15/12/1983"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="05"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Mohammad Ezabul Haque"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="15/12/1983  To 04/06/1991"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="06"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md. Tozammel Haque"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="04/06/1991  To 25/02/1993"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="07"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sekh Mohammad Nizam"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="29/06/1995  To  26/02/1996"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="08"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Khondokar mohammad Abdul Aziz"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="21/07/1996   To  29/12/1996"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="09"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md.Abul Kasem"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="29/11/1997  To 03/06/1998"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md. Golam Rabbani"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="10/06/1998  To 30/12/2000"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="11"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sharmin Ferdous Chowdhury"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="27/01/2001   To  06/07/2002"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Most. Amena Khatun"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="07/07/2002   To  13/01/2005"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="13"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md. Mostak Habib"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="05/05/2005  To  02/07/2009"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="14"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md. Mostak Habib"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="25/09/2010  To  14/08/2014"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="15"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Md Lutfor rahman"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="19/09/2014 To 19/04/2016"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="16"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="21dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff069032" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Most. Nilu Shamsun Nahar"
+
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ffff321a" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="25/04/2016 To Present"
+
+                        android:textStyle="bold|italic"
+                        android:textSize="21dp"
+                        android:background="@drawable/valuecellborder"
+                        android:padding="3dp"
+                        android:textIsSelectable="false"
+                        android:width="1dp"
+                        android:layout_weight="1"
+                        android:textColor="#ff07ab32" />
+                </TableRow>
+
+
+
+
+            </TableLayout>
+        </RelativeLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

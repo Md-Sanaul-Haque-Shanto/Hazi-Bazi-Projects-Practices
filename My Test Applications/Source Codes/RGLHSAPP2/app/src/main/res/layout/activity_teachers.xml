@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Teachers"
+    android:background="#fff1ffa3">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rglhslogo" />
+
+    <Button
+        android:layout_below="@+id/imagg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Teachers"
+        android:id="@+id/buttt111"
+
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_input_add" />
+
+
+    <Button
+
+        android:layout_below="@+id/buttt111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact With Teachers"
+        android:id="@+id/buttt2"
+
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_input_add" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teachers Login"
+        android:id="@+id/butt3"
+        android:layout_below="@+id/buttt2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_input_add" />
+
+</RelativeLayout>

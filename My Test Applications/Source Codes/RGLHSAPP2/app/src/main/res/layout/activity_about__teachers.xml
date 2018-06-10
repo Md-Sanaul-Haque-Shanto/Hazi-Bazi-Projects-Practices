@@ -1,0 +1,1022 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.About_Teachers"
+    android:background="#fff1ffa3">
+
+<TextView
+    android:id="@+id/tx"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="About Teacher"
+    android:textColor="#ff1f18ff"
+    android:background="@android:drawable/alert_light_frame"
+    android:textSize="24dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView7">
+
+
+
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+       >
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/saiful"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/saiful"
+
+
+            />
+
+
+
+        <TextView
+
+        android:layout_below="@+id/saiful"
+        android:id="@+id/saifult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="Mohammad Saiful Malek"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/saifult"
+            android:id="@+id/saifulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc.(Hon&apos;s);M.Sc;(Zoology);M.Ed;"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/saifulta"
+            android:id="@+id/saifultr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Biology)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+        <ImageView
+            android:layout_below="@+id/saifultr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/duli"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/duli"
+
+
+            />
+
+
+
+        <TextView
+
+            android:layout_below="@+id/duli"
+            android:id="@+id/dulit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rahima Akhtar Zahan"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/dulit"
+            android:id="@+id/dulita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc(Hon&apos;s);M.Sc;B.Ed;M.Ed;"
+            android:textColor="#ffff1916"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/dulita"
+            android:id="@+id/dulitr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Applied Physics)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+
+
+
+
+        <ImageView
+            android:layout_below="@+id/dulitr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/anzum"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mona"
+            />
+        <TextView
+
+            android:layout_below="@+id/anzum"
+            android:id="@+id/anzumt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most. Anzu Man Ara Begum"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/anzumt"
+            android:id="@+id/anzumta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A (Hon&apos;s);M.A(Sciology);B.Ed;"
+            android:textColor="#ffff150e"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/anzumta"
+            android:id="@+id/anzumtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst. Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <ImageView
+            android:layout_below="@+id/anzumtr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ara"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/anz1" />
+
+
+
+        <TextView
+
+            android:layout_below="@+id/ara"
+            android:id="@+id/arat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:text="Anjuman Ara Chowdhury" />
+        <TextView
+
+            android:layout_below="@+id/arat"
+            android:id="@+id/arata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"
+            android:text="B.A(Hon&apos;s); M.A; B.Ed;" />
+        <TextView
+
+            android:layout_below="@+id/arata"
+            android:id="@+id/aratr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst. Teacher (Bangla)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/aratr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/muntasir"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/hazi" />
+
+
+
+        <TextView
+
+            android:layout_below="@+id/muntasir"
+            android:id="@+id/muntasirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muntasir Ahamed"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/muntasirt"
+            android:id="@+id/muntasirta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.COM(Hon&apos;s);Accounting.M.COM;M.Ed;"
+            android:textColor="#ffff120e"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/muntasirta"
+            android:id="@+id/muntasirtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/muntasirtr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/pkm"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/pkm" />
+        <TextView
+
+            android:layout_below="@+id/pkm"
+            android:id="@+id/pkmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pk M Forhad"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/pkmt"
+            android:id="@+id/pkmta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A(Hon&apos;s); M.S.S; B.Ed;"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/pkmta"
+            android:id="@+id/pkmtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst. Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/pkmtr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/mossarof"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mosarrof"
+            />
+        <TextView
+
+            android:layout_below="@+id/mossarof"
+            android:id="@+id/mossaroft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Mosarraf Hossain"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/mossaroft"
+            android:id="@+id/mossarofta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A(Hon&apos;s);M.A(Sociology);B.Ed;B.P.Ed;"
+            android:textColor="#ffff270f"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/mossarofta"
+            android:id="@+id/mossaroftr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Physical Studies)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/mossaroftr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/mahbubul"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mahbubul"
+            />
+        <TextView
+
+            android:layout_below="@+id/mahbubul"
+            android:id="@+id/mahbubult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Mahbubul Haque"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/mahbubult"
+            android:id="@+id/mahbubulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.COM(Hon&apos;s);M.COM;M.Ed(Management);"
+            android:textColor="#ffff220f"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/mahbubulta"
+            android:id="@+id/mahbubultr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/mahbubultr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ser"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/ser" />
+
+
+
+        <TextView
+
+            android:layout_below="@+id/ser"
+            android:id="@+id/sert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohammad Sebgatullah"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/sert"
+            android:id="@+id/serta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.COM(Accounting);B.Ed;(Buisness Studies)"
+            android:textColor="#ffff1910"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/serta"
+            android:id="@+id/sertr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Buisness Studies)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/sertr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/araa"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/fer" />
+        <TextView
+            android:layout_below="@+id/araa"
+            android:id="@+id/araat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ferdous Ara Begum"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_below="@+id/araat"
+            android:id="@+id/araata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A(Hon&apos;s);M.A(Social Work);B.Ed;"
+            android:textColor="#ffff1607"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/araata"
+            android:id="@+id/araatr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/araatr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/raz"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/rajjak"
+            />
+        <TextView
+
+            android:layout_below="@+id/raz"
+            android:id="@+id/razt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.H.M Abdur Razzaque"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/razt"
+            android:id="@+id/razta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.M;B.S.S(Hon&apos;s);M.S.S(Social Work);B.Ed;"
+            android:textColor="#ffff1212"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/razta"
+            android:id="@+id/raztr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher(Islamic Studies)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/raztr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/bar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bari"
+            />
+        <TextView
+
+            android:layout_below="@+id/bar"
+            android:id="@+id/bart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Abdul Baree"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/bart"
+            android:id="@+id/barta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.Sc(Math); M.Ed;"
+            android:textColor="#ffff1c15"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/barta"
+            android:id="@+id/bartr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Mathematics)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/bartr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nas"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/nasima"
+            />
+        <TextView
+
+            android:layout_below="@+id/nas"
+            android:id="@+id/nast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most.Nasima Khatun"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/nast"
+            android:id="@+id/nasta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.A(Political Science)"
+            android:textColor="#ffff270d"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/nasta"
+            android:id="@+id/nastr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (English)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/nastr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/so"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/soriful"
+
+
+            />
+
+        <TextView
+
+            android:layout_below="@+id/so"
+            android:id="@+id/sot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Shariful Islam"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/sot"
+            android:id="@+id/sota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc(Hon&apos;s);M.Sc(Zoology);B.Ed;"
+            android:textColor="#ffff150e"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/sota"
+            android:id="@+id/sotr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst. Teacher (Biology)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/sotr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/haq"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/oyahidul"
+
+
+            />
+        <TextView
+
+            android:layout_below="@+id/haq"
+            android:id="@+id/haqt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Wahidul Haque"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/haqt"
+            android:id="@+id/haqta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc(Hon&apos;s);M.Sc;B.Ed;"
+            android:textColor="#ffff1e19"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/haqta"
+            android:id="@+id/haqtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/haqtr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ali"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mohsi"
+            />
+        <TextView
+
+            android:layout_below="@+id/ali"
+            android:id="@+id/alit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Mohsin Ali"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/alit"
+            android:id="@+id/alita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Sc(Hon&apos;s);M.Sc(Math);B.Ed;"
+            android:textColor="#ffff1a10"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/alita"
+            android:id="@+id/alitr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Mathematics)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/alitr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/azmira"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/azmira"
+
+
+            />
+        <TextView
+
+            android:layout_below="@+id/azmira"
+            android:id="@+id/azmirat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajmira Khatun"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/azmirat"
+            android:id="@+id/azmirata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.A(Bangla);M.Ed;"
+            android:textColor="#ffff1b08"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/azmirata"
+            android:id="@+id/azmiratr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Bangla)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/azmiratr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/roy"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sufra"
+
+
+            />
+        <TextView
+
+        android:layout_below="@+id/roy"
+        android:id="@+id/royt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suvra Roy"
+        android:textColor="#ff0620ff"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/royt"
+            android:id="@+id/royta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.Sc(Math);B.Ed;"
+            android:textColor="#ffff271b"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/royta"
+            android:id="@+id/roytr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Mathematics)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_below="@+id/roytr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ato"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/motaher"
+
+
+            />
+        <TextView
+
+            android:layout_below="@+id/ato"
+            android:id="@+id/atot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atwar Hossain"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/atot"
+            android:id="@+id/atota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.COM;B.Ed;"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/atota"
+            android:id="@+id/atotr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Buisness Studies)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/atotr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/sahera"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sahera"
+
+
+            />
+        <TextView
+
+            android:layout_below="@+id/sahera"
+            android:id="@+id/saherat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most. Sahera Begum"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/saherat"
+            android:id="@+id/saherata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A(Hon&apos;s);M.A(English);B.Ed;"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/saherata"
+            android:id="@+id/saheratr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher(English)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/saheratr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/kobi"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/himu"
+            />
+        <TextView
+
+            android:layout_below="@+id/kobi"
+            android:id="@+id/kobit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Humayun Kabir"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/kobit"
+            android:id="@+id/kobita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.S.S(Hon&apos;s);M.S.S(Economics);B.Ed;"
+            android:textColor="#ffff151e"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/kobita"
+            android:id="@+id/kobitr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_below="@+id/kobitr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tori"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/yoyo"
+            />
+        <TextView
+
+            android:layout_below="@+id/tori"
+            android:id="@+id/torit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Tariqul Islam"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/torit"
+            android:id="@+id/torita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.A(Hon&apos;s);M.A(English);B.Ed;"
+            android:textColor="#ffff1f12"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/torita"
+            android:id="@+id/toritr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (English)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <ImageView
+            android:layout_below="@+id/toritr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/nilu"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/nilufar" />
+        <TextView
+
+            android:layout_below="@+id/nilu"
+            android:id="@+id/nilut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilufar Ali"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/nilut"
+            android:id="@+id/niluta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.F.A; M.F.A; B.Ed;"
+            android:textColor="#ffff0e1a"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/niluta"
+            android:id="@+id/nilutr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Arts And Crafts)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:layout_below="@+id/nilutr"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/azim"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+
+            android:src="@drawable/nekbo123" />
+        <TextView
+
+            android:layout_below="@+id/azim"
+            android:id="@+id/azimt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md. Nekbar Ali"
+            android:textColor="#ff0620ff"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/azimt"
+            android:id="@+id/azimta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.S.S(Hon&apos;s); M.S.S; B.Ed; M.Ed;"
+            android:textColor="#ffff1723"
+            android:textSize="21dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+
+            android:layout_below="@+id/azimta"
+            android:id="@+id/azimtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asst.Teacher (Social Science)"
+            android:textColor="#ffd907d6"
+            android:textSize="23dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

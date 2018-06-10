@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Archive"
+    android:background="#fff1ffa3"
+    android:padding="3dp">
+
+
+    <ImageView
+        android:src="@drawable/rglhslogo"
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About School"
+                android:id="@+id/buttt111"
+
+                android:layout_centerHorizontal="true"
+                />
+
+
+            <Button
+
+                android:layout_below="@+id/buttt111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Logo"
+                android:id="@+id/buttt2"
+
+                android:layout_centerHorizontal="true" />
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buildings"
+                android:id="@+id/buttt3"
+
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/buttt2" />
+            <Button
+
+                android:layout_below="@+id/buttt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HeadMasters"
+                android:id="@+id/buttt4"
+
+                android:layout_centerHorizontal="true" />
+            <Button
+
+                android:layout_below="@+id/buttt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Staffs"
+                android:id="@+id/buttt5"
+
+                android:layout_centerHorizontal="true" />
+            <Button
+
+                android:layout_below="@+id/buttt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Results Success"
+                android:id="@+id/buttt6"
+
+                android:layout_centerHorizontal="true" />
+
+            <Button
+
+                android:layout_below="@+id/buttt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Major Informations"
+                android:id="@+id/buttt7"
+
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

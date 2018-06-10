@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout fab:fitsSystemWindows="true" fab:layout_width="-1" fab:layout_height="-1">
+    <android.support.design.widget.AppBarLayout fab:theme="@style/AppTheme_AppBarOverlay" fab:layout_width="-1" fab:layout_height="-2">
+        <android.support.v7.widget.Toolbar fab:id="@id/toolbar" fab:background="?unknown_attr_ref: 7f010120" fab:layout_width="-1" fab:layout_height="?unknown_attr_ref: 7f0100e4" fab:popupTheme="@style/AppTheme_PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+    <com.github.clans.fab.FloatingActionMenu fab:id="@id/menu_get_photo" fab:paddingLeft="10dp" fab:paddingRight="10dp" fab:paddingBottom="10dp" fab:layout_width="-1" fab:layout_height="-1" fab:layout_alignParentBottom="true" fab:menu_labels_position="1" fab:menu_labels_singleLine="true" fab:menu_labels_ellipsize="3" fab:menu_colorNormal="#43a047" fab:menu_colorPressed="#2e7d32" fab:menu_colorRipple="#1b5e20" fab:menu_backgroundColor="#ccffffff">
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/facebook_propic" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_profile" fab:fab_size="1" fab:fab_label="@string/facebook_propic" style="@style/MenuButtonsSmall_Green" />
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/photo_gallery" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_gallery" fab:fab_size="1" fab:fab_label="@string/photo_gallery" style="@style/MenuButtonsSmall_Green" />
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/photo_camera" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_camera" fab:fab_size="1" fab:fab_label="@string/photo_camera" style="@style/MenuButtonsSmall_Green" />
+    </com.github.clans.fab.FloatingActionMenu>
+    <com.github.clans.fab.FloatingActionMenu fab:id="@id/menu_share_photo" fab:paddingLeft="10dp" fab:paddingRight="10dp" fab:paddingBottom="10dp" fab:layout_width="-1" fab:layout_height="-1" fab:layout_alignParentRight="true" fab:layout_alignParentBottom="true" fab:menu_icon="@drawable/ic_menu_share" fab:menu_labels_singleLine="true" fab:menu_labels_ellipsize="3" fab:menu_backgroundColor="#ccffffff">
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/menu_fb_message" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_messege" fab:fab_size="1" fab:fab_label="@string/send_fb_message" />
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/share_on_facebook" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_facebook" fab:fab_size="1" fab:fab_label="@string/share_facebook" />
+        <com.github.clans.fab.FloatingActionButton fab:id="@id/save_photo" fab:layout_width="-2" fab:layout_height="-2" fab:src="@drawable/ic_menu_save" fab:fab_size="1" fab:fab_label="@string/save_photo" />
+    </com.github.clans.fab.FloatingActionMenu>
+</android.support.design.widget.CoordinatorLayout>

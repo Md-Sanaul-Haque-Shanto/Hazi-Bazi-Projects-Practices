@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView app:textColor="#ff0000" app:gravity="11" app:id="@id/messageTextView" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true" />
+    <LinearLayout app:gravity="11" app:orientation="1" app:id="@id/flagPaneLL" app:paddingLeft="@dimen/activity_horizontal_margin" app:paddingTop="@dimen/activity_vertical_margin" app:paddingRight="@dimen/activity_horizontal_margin" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/messageTextView" app:layout_centerHorizontal="true">
+        <ImageView app:id="@id/imageView" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/icon_user_default" app:scaleType="3" />
+        <SeekBar app:id="@id/alphaSeekBar" app:layout_width="-1" app:layout_height="-2" app:max="100" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView ads:id="@id/adView" ads:layout_width="-1" ads:layout_height="-2" ads:layout_below="@id/flagPaneLL" ads:adSize="BANNER" ads:adUnitId="@string/bottom_banner_on_home_ad_unit_id" />
+</RelativeLayout>

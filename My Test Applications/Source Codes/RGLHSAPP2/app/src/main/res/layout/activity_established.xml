@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanato.rglhsapp.Established"
+    android:background="@drawable/rglhs"
+    android:padding="5dp">
+
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#ff2942ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Government Laboratory High School ,Rajshahi."
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff9d18"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff6324ff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1969 EST."
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff030ff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Established Man"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff4a24ff"
+        android:textSize="30dp" />
+
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeadMaster: Muhammud Ezharul Haque"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffb2eff"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistant HeadMaster: Soywod Ashraf Ali Alom"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff3ce3"
+        android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classes"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/textView15"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ff1c1eff"
+                android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From 3 To 10"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff74bff"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color(s)"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff2c4cff"
+        android:textSize="26dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White,Khaki &amp; Merun"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff74bff"
+        android:textSize="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Moto Of The School"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff2c4cff"
+        android:textSize="26dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter To Learn , Leave To serve"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff3732"
+        android:textSize="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORLABS"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff08088f"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The School an alumni association:ORLABS(Old Rajshahi Laboratorian Society)"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff4649"
+        android:textSize="24dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Is Our School"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffe5060a"
+        android:textSize="26dp" />
+
+
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Government Laboratory High School Rajshahi is a secondary education institute in Bangladesh.It was established in 1969 as the laboratory of Rajshahi Teacher's Training College to establish an ideal school.The founder headmaster was Izharul Haque.Every year a large number of students sit for an admission test,And only a few of (100+) these can entar."
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:textColor="#fe000003"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff182b9d"
+        android:textSize="26dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff01010d"
+        android:textSize="24dp"
+        android:text="The school started with a few rooms at the Teacher's Training College Building (Commonly Known as TT College) at Sepaipara and later moved to its own green premises at Laxmipur." />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>
